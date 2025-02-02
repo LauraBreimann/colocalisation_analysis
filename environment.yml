@@ -9,3 +9,4 @@ dependencies:
   - scipy
   - jupyterlab
   - ipykernel
+  - matplotlib
