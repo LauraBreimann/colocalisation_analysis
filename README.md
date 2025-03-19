@@ -29,7 +29,7 @@ conda env update --name spot-compare-env --file environment.yml --prune
 
 ## Step 1: Extract single tif files from Picoquant images
 
-Use the Fiji script ```resave_single_tif.ijm``` to resave images that have a second empty frame. The script keeps the first frame of the images and saves them as 16-bit single-slice images in a new folder. 
+Use the Fiji script ```resave_single_tif.ijm``` to resave images that have a second empty frame. The script keeps the first frame of the images and saves them as single-slice images in a new folder. 
 
 
 ## Step 2: Save single files as a multi-channel tif
