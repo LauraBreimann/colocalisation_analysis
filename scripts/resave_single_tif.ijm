@@ -39,10 +39,10 @@ function processTifFile(filePath, outputDir, suffix) {
     }
     
     // Adjust brightness and contrast if necessary (customize as needed)
-    run("Enhance Contrast", "saturated=0.35");
+    //run("Enhance Contrast", "saturated=0.35");
 
     // Convert to 16-bit
-    run("16-bit");
+    //run("16-bit");
 
     // Save output
     baseName = substring(imageTitle, 0, indexOf(imageTitle, "." + suffix));
