@@ -10,3 +10,6 @@ dependencies:
   - jupyterlab
   - ipykernel
   - matplotlib
+  - simpleitk
+  - tifffile
+  - scikit-image 
