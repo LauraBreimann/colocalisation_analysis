@@ -20,6 +20,12 @@ conda list
 ```
 You should see numpy, pandas, scipy, jupyterlab, ipykernel, etc.
 
+5. To update the environment: 
+
+```
+conda env update --name spot-compare-env --file environment.yml --prune
+```
+
 
 ## Step 1: Extract single tif files from Picoquant images
 
@@ -33,10 +39,10 @@ Use the Fiji script ```resave_as_multichannel.ijm``` to save the single tif file
 
 ## Step 3: Register multichannel images 
 
-Use the Python script 
+Use the Python script ```register_images.ipynb``` to register the multichannel images. Split the registered images for spot detection. 
 
 
-## Step 4: Detect sturcutres using RS-FISH
+## Step 4: Detect structures using RS-FISH
 
 Use [RS-FISH](https://github.com/PreibischLab/RS-FISH) manually to determine the parameters for good detection. Use the script ```RS-FISH_macro.ijm``` to batch detect spots/structures in similar images. 
 
